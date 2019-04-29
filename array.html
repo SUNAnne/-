@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+
+<body>
+  <div id="root">
+    <div>选择一</div>
+    <input type="radio" ref="inp1" name="n1" id="n1" value="" />
+    <input type="radio" ref="inp2" name="n1" id="n2" value="" />
+    <input type="radio" ref="inp3" name="n1" id="n3" value="" />
+    <div>选择二</div>
+    <input type="radio" ref="inp4" name="n2" id="n4" value="" />
+    <input type="radio" ref="inp5" name="n2" id="n5" value="" />
+    <input type="radio" ref="inp6" name="n2" id="n6" value="" />
+    <div>选择三</div>
+    <input type="radio" ref="inp7" name="n3" id="n7" value="" />
+    <input type="radio" ref="inp8" name="n3" id="n8" value="" />
+    <input type="radio" ref="inp9" name="n3" id="n9" value="" />
+    <div>选择四</div>
+    <input type="radio" ref="inp10" name="n4" id="n10" value="" />
+    <input type="radio" ref="inp11" name="n4" id="n11" value="" />
+    <input type="radio" ref="inp12" name="n4" id="n12" value="" />
+    <div>选择五</div>
+    <input type="radio" ref="inp13" name="n5" id="n13" value="" />
+    <input type="radio" ref="inp14" name="n5" id="n14" value="" />
+    <input type="radio" ref="inp15" name="n5" id="n15" value="" />
+    <button @click="aa1">提交 </button>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+  let vm = new Vue({
+    el: "#root",///绑定到html的节点
+    data: {
+      radio: "",
+      arr: [],
+      abc: 1,
+      aa: { "stat": { "code": 0, "stateList": [{ "msg": "SUCCESS", "code": 0, "length": 14144, "desc": "成功" }], "systime": 1540364708375, "desc": "成功", "cid": "a:18bb9c|t:11596|s:1540364707822" }, "content": [{ "platSuvTitle": "试用期满意度调查", "platSuvOptdesc": "undefined", "platSuvLinkname": "Please click here for the survey/请点击此处完成问卷", "platSuvSubject": "试用期员工满意度", "platSuvContent": "<p><br></p><p><br></p><p>尊敬的王根苗;：<br></p><p>你好！&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br></p><div>&nbsp; &nbsp; &nbsp; 非常感谢你对仁云的信任，加入我们！我们也非常关注你在进入公司后的成长和感受。请真实填写以下信息，以便帮助你更好的发展！ &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</div>", "platSuvStyleDis": "逐个显示(分类)", "updateBy": "1030", "platSuvSuggest": "1", "platSuvCode": "DCBH20180403000017", "platSuvSuggestitle": "<p>The valuable feedback we received from you will be of the utmost importance in improving and enhancing our service in the future. Please write down your additional comments or suggestion.<br>Thanks a lot for your cooperation!<br><br>您的意见及建议对我们极具价值，它将有利于提高我们的服务。如果您 有其他的意见和建议，请填写在下面对话框内。<br>非常感谢您的配合。&nbsp;&nbsp;<br></p>", "id": "1299", "listCategory": [{ "listQues": [{ "platQusOrder": "100", "platQusDesccn": "流程查看及控制是否清晰明了？", "platQusDescen": "Whether process is clear in this platform?", "platQusScoringDis": "否", "platQusAstype": "suvastype_01", "platQusRadio": "false", "listQuesasw": [{ "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Fully Satisfied", "platQasAswercn": "非常满意", "updateTime": "2018-10-24 13:55:38.0", "platQasOrder": "101", "platQasQustid": "1040", "platQasSuvid": "1299", "platQasQustidDis": "流程查看及控制是否清晰明了？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 11:30:32.0", "updateBy": "1030", "id": "1029" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Slightly satisfied", "platQasAswercn": "比较满意", "updateTime": "2018-10-24 13:55:44.0", "platQasOrder": "102", "platQasQustid": "1040", "platQasSuvid": "1299", "platQasQustidDis": "流程查看及控制是否清晰明了？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 11:31:10.0", "updateBy": "1030", "id": "1030" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Satisfied", "platQasAswercn": "满意", "updateTime": "2018-10-24 13:55:50.0", "platQasOrder": "103", "platQasQustid": "1040", "platQasSuvid": "1299", "platQasQustidDis": "流程查看及控制是否清晰明了？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 11:31:27.0", "updateBy": "1030", "id": "1031" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Slightly dissatisfied", "platQasAswercn": "不太满意", "updateTime": "2018-10-24 13:56:07.0", "platQasOrder": "104", "platQasQustid": "1040", "platQasSuvid": "1299", "platQasQustidDis": "流程查看及控制是否清晰明了？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 11:31:51.0", "updateBy": "1030", "id": "1032" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Fully dissatisfied", "platQasAswercn": "非常不满意", "updateTime": "2018-10-24 13:56:14.0", "platQasOrder": "105", "platQasQustid": "1040", "platQasSuvid": "1299", "platQasQustidDis": "流程查看及控制是否清晰明了？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 11:32:12.0", "updateBy": "1030", "id": "1033" }], "updateBy": "1033", "platQusValid": "1", "platQusCommentsDis": "否", "id": "1040", "platQusScoring": "0", "platQusComments": "0", "platQusSuvid": "1299", "updateTime": "2018-04-11 16:39:27.0", "platQusCatid": "1041", "platQusDisorder": "Q1.", "platQusValidDis": "是", "createBy": "1033", "companyId": "1000", "platQusAstypeDis": "单选", "createTime": "2018-04-11 13:48:46.0", "platQusIsmust": "1", "platQusIsmustDis": "是" }, { "platQusOrder": "400", "platQusDesccn": "未完成自行申报的原因调查满意度", "platQusDescen": "Why haven’t you finished the annual filing?", "platQusScoringDis": "是", "platQusAstype": "suvastype_01", "platQusRadio": "false", "listQuesasw": [{ "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Fully dissatisfied", "platQasAswercn": "非常满意", "platQasOrder": "401", "platQasQustid": "1043", "platQasSuvid": "1299", "platQasQustidDis": "未完成自行申报的原因调查满意度", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:45.0", "id": "1040" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Fully dissatisfied", "platQasAswercn": "比较满意", "platQasOrder": "402", "platQasQustid": "1043", "platQasSuvid": "1299", "platQasQustidDis": "未完成自行申报的原因调查满意度", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:45.0", "id": "1051" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Fully dissatisfied", "platQasAswercn": "满意", "platQasOrder": "403", "platQasQustid": "1043", "platQasSuvid": "1299", "platQasQustidDis": "未完成自行申报的原因调查满意度", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:45.0", "id": "1052" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Fully dissatisfied", "platQasAswercn": "不太满意", "platQasOrder": "404", "platQasQustid": "1043", "platQasSuvid": "1299", "platQasQustidDis": "未完成自行申报的原因调查满意度", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:45.0", "id": "1053" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Fully dissatisfied", "platQasAswercn": "非常不满意", "platQasOrder": "405", "platQasQustid": "1043", "platQasSuvid": "1299", "platQasQustidDis": "未完成自行申报的原因调查满意度", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:45.0", "id": "1054" }], "updateBy": "1030", "platQusValid": "1", "platQusCommentsDis": "是", "id": "1043", "platQusScoring": "1", "platQusComments": "1", "platQusSuvid": "1299", "updateTime": "2018-10-24 13:53:56.0", "platQusCatid": "1041", "platQusDisorder": "Q2.", "platQusValidDis": "是", "createBy": "1033", "companyId": "1000", "platQusAstypeDis": "单选", "createTime": "2018-04-11 13:51:16.0", "platQusIsmust": "1", "platQusIsmustDis": "是" }], "platCatValid": "1", "platCatSuvid": "1299", "updateTime": "2018-10-21 17:08:43.0", "platCatDescen": "Annual Filing Process", "createBy": "1033", "companyId": "1000", "platCatOrder": "100", "platCatDesccn": "员工互助", "createTime": "2018-04-11 13:46:54.0", "updateBy": "1030", "id": "1041", "platCatValidDis": "是" }, { "listQues": [{ "platQusOrder": "200", "platQusDesccn": "平台展示及操作是否满意？", "platQusDescen": "Whether platform is easy to use?", "platQusScoringDis": "是", "platQusAstype": "suvastype_01", "platQusRadio": "false", "listQuesasw": [{ "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Satisfied", "platQasAswercn": "非常满意", "platQasOrder": "201", "platQasQustid": "1041", "platQasSuvid": "1299", "platQasQustidDis": "平台展示及操作是否满意？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:03.0", "id": "1038" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Satisfied", "platQasAswercn": "比较满意", "platQasOrder": "202", "platQasQustid": "1041", "platQasSuvid": "1299", "platQasQustidDis": "平台展示及操作是否满意？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:03.0", "id": "1055" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Satisfied", "platQasAswercn": "满意", "platQasOrder": "203", "platQasQustid": "1041", "platQasSuvid": "1299", "platQasQustidDis": "平台展示及操作是否满意？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:03.0", "id": "1056" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Satisfied", "platQasAswercn": "不太满意", "platQasOrder": "204", "platQasQustid": "1041", "platQasSuvid": "1299", "platQasQustidDis": "平台展示及操作是否满意？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:03.0", "id": "1057" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Satisfied", "platQasAswercn": "非常不满意", "platQasOrder": "205", "platQasQustid": "1041", "platQasSuvid": "1299", "platQasQustidDis": "平台展示及操作是否满意？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:03.0", "id": "1058" }], "updateBy": "1030", "platQusValid": "1", "platQusCommentsDis": "是", "id": "1041", "platQusScoring": "1", "platQusComments": "1", "platQusSuvid": "1299", "updateTime": "2018-10-24 13:53:30.0", "platQusCatid": "1042", "platQusDisorder": "Q3.", "platQusCatidDis": "岗位职责", "platQusValidDis": "是", "createBy": "1033", "companyId": "1000", "platQusAstypeDis": "单选", "createTime": "2018-04-11 13:50:20.0", "platQusIsmust": "1", "platQusIsmustDis": "是" }, { "platQusOrder": "500", "platQusDesccn": "平台展示及操作效果满意度？", "platQusDescen": "Whether platform is easy to use?", "platQusScoringDis": "是", "platQusAstype": "suvastype_01", "platQusRadio": "false", "listQuesasw": [{ "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "yes", "platQasAswercn": "非常满意", "platQasOrder": "601", "platQasQustid": "1049", "platQasSuvid": "1299", "platQasQustidDis": "平台展示及操作效果满意度？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 13:14:05.0", "id": "1034" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "yes", "platQasAswercn": "比较满意", "platQasOrder": "602", "platQasQustid": "1049", "platQasSuvid": "1299", "platQasQustidDis": "平台展示及操作效果满意度？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 13:14:05.0", "id": "1046" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "yes", "platQasAswercn": "满意", "platQasOrder": "603", "platQasQustid": "1049", "platQasSuvid": "1299", "platQasQustidDis": "平台展示及操作效果满意度？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 13:14:05.0", "id": "1047" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "yes", "platQasAswercn": "不太满意", "platQasOrder": "604", "platQasQustid": "1049", "platQasSuvid": "1299", "platQasQustidDis": "平台展示及操作效果满意度？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 13:14:05.0", "id": "1048" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "yes", "platQasAswercn": "非常不满意", "platQasOrder": "605", "platQasQustid": "1049", "platQasSuvid": "1299", "platQasQustidDis": "平台展示及操作效果满意度？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 13:14:05.0", "id": "1049" }], "updateBy": "1030", "platQusValid": "1", "platQusCommentsDis": "是", "id": "1049", "platQusScoring": "1", "platQusComments": "1", "platQusSuvid": "1299", "updateTime": "2018-10-24 13:54:15.0", "platQusCatid": "1042", "platQusDisorder": "Q4、", "platQusCatidDis": "岗位职责", "platQusValidDis": "是", "createBy": "1033", "companyId": "1000", "platQusAstypeDis": "单选", "createTime": "2018-04-12 13:13:15.0", "platQusIsmust": "1", "platQusIsmustDis": "是" }], "platCatValid": "1", "platCatSuvid": "1299", "updateTime": "2018-10-21 17:08:55.0", "platCatDescen": "Service Quality", "createBy": "1033", "companyId": "1000", "platCatOrder": "200", "platCatDesccn": "岗位职责", "createTime": "2018-04-11 13:47:12.0", "updateBy": "1030", "id": "1042", "platCatValidDis": "是" }, { "listQues": [{ "platQusOrder": "300", "platQusDesccn": "对于服务质量总体评价如何？", "platQusDescen": "How satisfied are you overall with the quality of our service?", "platQusScoringDis": "是", "platQusAstype": "suvastype_01", "platQusRadio": "false", "listQuesasw": [{ "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Slightly dissatisfied", "platQasAswercn": "非常满意", "platQasOrder": "301", "platQasQustid": "1042", "platQasSuvid": "1299", "platQasQustidDis": "对于服务质量总体评价如何？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:23.0", "id": "1039" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Slightly dissatisfied", "platQasAswercn": "比较满意", "platQasOrder": "302", "platQasQustid": "1042", "platQasSuvid": "1299", "platQasQustidDis": "对于服务质量总体评价如何？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:23.0", "id": "1059" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Slightly dissatisfied", "platQasAswercn": "满意", "platQasOrder": "303", "platQasQustid": "1042", "platQasSuvid": "1299", "platQasQustidDis": "对于服务质量总体评价如何？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:23.0", "id": "1060" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Slightly dissatisfied", "platQasAswercn": "不太满意", "platQasOrder": "304", "platQasQustid": "1042", "platQasSuvid": "1299", "platQasQustidDis": "对于服务质量总体评价如何？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:23.0", "id": "1061" }, { "platQasValidDis": "是", "platQasValid": "1", "platQasAsweren": "Slightly dissatisfied", "platQasAswercn": "非常不满意", "platQasOrder": "305", "platQasQustid": "1042", "platQasSuvid": "1299", "platQasQustidDis": "对于服务质量总体评价如何？", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-12 14:12:23.0", "id": "1062" }], "updateBy": "1033", "platQusValid": "1", "platQusCommentsDis": "是", "id": "1042", "platQusScoring": "1", "platQusComments": "1", "platQusSuvid": "1299", "updateTime": "2018-04-12 14:09:38.0", "platQusCatid": "1043", "platQusDisorder": "Q5.", "platQusValidDis": "是", "createBy": "1033", "companyId": "1000", "platQusAstypeDis": "单选", "createTime": "2018-04-11 13:50:49.0", "platQusIsmust": "1", "platQusIsmustDis": "是" }], "platCatValid": "1", "platCatSuvid": "1299", "updateTime": "2018-10-21 17:09:46.0", "platCatDescen": "Unfinished Reason", "createBy": "1033", "companyId": "1000", "platCatOrder": "300", "platCatDesccn": "工作职能", "createTime": "2018-04-11 13:47:28.0", "updateBy": "1030", "id": "1043", "platCatValidDis": "是" }], "platSuvGentime": "2018-04-19", "platSuvSubtitle": "试用期员工满意度调查", "platSuvDiscont": "1", "platSuvStyle": "p_suvstyle_02", "platSuvTo": "10000199;", "platSuvSuggestDis": "是", "platSuvIcworkno": "1", "platSuvScoringDis": "是", "updateTime": "2018-10-21 19:48:23.0", "platSuvScoring": "1", "platSuvBottom": "undefined", "createBy": "1033", "companyId": "1000", "createTime": "2018-04-03 17:02:36.0", "platSuvDiscontDis": "是" }] }
+    },
+    methods: {
+      handleRadio(id, num, length) {
+        console.log("radio", this.radio);
+        console.log("id", id, "num", num, "length", length);
+        let tempArr = [];
+
+        if (this.radio !== '') {
+          tempArr.push(this.radio);
+        }
+
+        console.log(tempArr);
+      },
+
+      aa1() {
+        console.log(this.$refs);
+        for (var i in this.$refs) {
+          if (this.$refs[i].checked == true) {
+            this.arr.push(this.$refs[i].id);
+            this.abc++;
+          }
+
+        }
+        console.log(this.arr)
+
+        if (this.abc == 6) {
+          alert('可以提交');
+          this.abc = 1;
+          this.arr = [];
+        } else {
+          alert('有没选的');
+          this.abc = 1;
+          this.arr = [];
+
+        }
+      },
+    }
+  })
+</script>
+
+</html>
